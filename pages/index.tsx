@@ -25,7 +25,7 @@ export default function Home() {
   }>({
     messages: [
       {
-        message: 'Hi, what would you like to know from this DSA Cormen book?',
+        message: 'Hi, what DBMS concept would you like to know about?',
         type: 'apiMessage',
       },
     ],
@@ -125,7 +125,7 @@ export default function Home() {
       <Layout>
         <div className="mx-auto flex flex-col gap-4">
           <h1 className="text-2xl font-bold leading-[1.1] tracking-tighter text-center">
-            Chat With Your DSA bot!
+            Chat With Your DBMS Bot!
           </h1>
           <main className={styles.main}>
             <div className={styles.cloud}>
@@ -224,7 +224,7 @@ export default function Home() {
                     placeholder={
                       loading
                         ? 'Waiting for response...'
-                        : 'Ask a DSA related question...'
+                        : 'Ask a DBMS related query...'
                     }
                     value={query}
                     onChange={(e) => setQuery(e.target.value)}
@@ -262,10 +262,10 @@ export default function Home() {
         </div>
         <footer className="m-auto p-4">
           <p>
-            Powered by LangChainAI, OpenAI and Pinecone.
+          Powered by LangChainAI, OpenAI and Pinecone.
           </p>
           <a href="https://github.com/gaurangi99">
-            Demo built by Gaurangi Agrawal (Github: @gaurangi99).
+            Demo built by Gaurangi Agrawal (GitHub: @gaurangi99).
           </a>
         </footer>
       </Layout>

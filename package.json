@@ -1,9 +1,9 @@
 {
-  "name": "gpt3.5-langchain-pdf-chatbot",
-  "version": "turbo",
+  "name": "gpt4-langchain-pdf-chatbot",
+  "version": "0.1.0",
   "private": true,
   "license": "MIT",
-  "author": "Gaurangi Agrawal, M.Tech (CSE), IIIT Bangalore, India",
+  "author": "Gaurangi<Github:@gaurangi99>",
   "type": "module",
   "scripts": {
     "dev": "next dev",
@@ -48,15 +48,11 @@
   },
   "keywords": [
     "starter",
-    "gpt3.5 turbo",
+    "gpt4",
     "pinecone",
     "typescript",
     "nextjs",
     "langchain",
-    "dsa",
-    "cormen",
-    "algorithm",
-    "data structures",
     "pdf",
     "openai"
   ]
