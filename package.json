@@ -1,9 +1,9 @@
 {
-  "name": "gpt4-langchain-pdf-chatbot",
-  "version": "0.1.0",
+  "name": "gpt3.5-langchain-pdf-chatbot",
+  "version": "turbo",
   "private": true,
   "license": "MIT",
-  "author": "Mayooear<twitter:@mayowaoshin>",
+  "author": "Gaurangi Agrawal, M.Tech (CSE), IIIT Bangalore, India",
   "type": "module",
   "scripts": {
     "dev": "next dev",
@@ -48,13 +48,15 @@
   },
   "keywords": [
     "starter",
-    "gpt4",
+    "gpt3.5 turbo",
     "pinecone",
     "typescript",
     "nextjs",
     "langchain",
-    "law",
-    "legal",
+    "dsa",
+    "cormen",
+    "algorithm",
+    "data structures",
     "pdf",
     "openai"
   ]
